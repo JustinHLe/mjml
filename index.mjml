@@ -1,0 +1,121 @@
+<mjml>
+    <!-- mj-head is similar to html head describes data about the document -->
+    <mj-head> 
+        <!-- default font -->
+        <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico" />
+        <!-- mj-attribute sets styles for different mj tags -->
+        <mj-attributes>
+            <mj-text font-family="Quantico, sans-serif" align="center" 
+            font-size="18px" line-height="26px" color="#FFFFFF" padding="0px"/>
+            <mj-image padding="0px"/>
+            <mj-button background-color="#D1AA5A" 
+            font-size="14px" color="#000000" font-family="Quantico, sans-serif"
+            text-transform="uppercase" border-radius="0px" height="45px" width="200px"/>
+            <mj-section padding="0px"/>
+            <!-- mj-class creates a named group of mjml attributes
+            which share styles -->
+            <mj-class name="head-text" font-size="48px"
+            line-height="69px" text-transform="uppercase"/>
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#F1F1F1">
+
+        <mj-section background-color="linear-gradient(to top, rgba(51,51,51,1), rgba(221,24,24,1))">
+        <!-- mj column horizontally organize contents within sections -->
+            <mj-column>
+                <mj-image width="128px" padding="20px" src="./images/uac_logo.png" alt="logo" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgba(51,51,51,1)">
+            <mj-column>
+                <mj-image padding="20px" src="./images/welcome.jpeg" alt="Welcome" />
+            <mj-button href="https://google.com">
+                Join the UAC now
+            </mj-button>
+            <mj-text font-size="24px">
+                Give us your soul in return for argent energy
+            </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgba(51,51,51,1)" padding-top="80px" padding-left="20px" padding-right="20px">
+            <mj-column width="400px" padding-bottom="15px">
+                <mj-image src="./images/hayden.jpeg" alt="hayden" />
+                <mj-text mj-class="head-text" padding-top="40px">
+                    What does the UAC provide for you?
+                </mj-text>
+            </mj-column>
+            <mj-column width="420px">
+                <mj-text>
+                    The UAC provides humanity with a new form of renewable energy called argent, which is 
+                    made from tortured souls!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgba(51,51,51,1)" padding-top="80px">
+            <mj-column width="400px" padding-bottom="15px">
+                <mj-text mj-class="head-text" padding-left="20px" padding-right="20px">
+                    Rip and Tear
+                </mj-text>
+                <mj-image src="./images/marauder.jpeg" alt="marauder" />
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section background-color="rgba(51,51,51,1)" padding-top="80px">
+            <mj-column>
+                <mj-text font-size="30px" text-transform="uppercase" padding-right="20px" padding-left="20px">
+                    Our Outstanding Employees!
+                </mj-text>
+            </mj-column>
+        </mj-section>   
+
+        <mj-section background-color="rgba(51,51,51,1)" padding-top="30px" padding-left="50px" padding-right="50px">
+            <mj-column width="200px" padding="20px">
+                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
+            </mj-column>
+            <mj-column width="200px" padding="20px">
+                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
+            </mj-column>
+            <mj-column width="200px" padding="20px">
+                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
+            </mj-column>
+            <mj-column width="200px" padding="20px">
+                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section background-color="rgba(51,51,51,1)" padding-top="10px" padding-bottom="80px" >
+            <mj-column>
+                <mj-text>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="linear-gradient(to bottom, rgba(51,51,51,1), rgba(221,24,24,1))" padding-bottom="30px" >
+            <mj-column width="300px" padding-top="30px">
+                <mj-text>
+                    <img width="25px" style="padding: 5px" src="./images/uac_logo.png" alt="logo"/>
+                </mj-text>
+                <mj-text color="#303030" font-family="Helvetica" font-size="12px" line-height="14px">
+                    @JustinHLe
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
