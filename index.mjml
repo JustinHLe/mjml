@@ -2,35 +2,35 @@
     <!-- mj-head is similar to html head describes data about the document -->
     <mj-head> 
         <!-- default font -->
-        <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico" />
+        <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico"></mj-font>
         <!-- mj-attribute sets styles for different mj tags -->
         <mj-attributes>
             <mj-text font-family="Quantico, sans-serif" align="center" 
-            font-size="18px" line-height="26px" color="#FFFFFF" padding="0px"/>
-            <mj-image padding="0px"/>
+            font-size="18px" line-height="26px" color="#FFFFFF" padding="0px"></mj-text>
+            <mj-image padding="0px"></mj-image>
             <mj-button background-color="#D1AA5A" 
             font-size="14px" color="#000000" font-family="Quantico, sans-serif"
-            text-transform="uppercase" border-radius="0px" height="45px" width="200px"/>
-            <mj-section padding="0px"/>
+            text-transform="uppercase" border-radius="0px" height="45px" width="200px"></mj-button>
+            <mj-section padding="0px"></mj-section>
             <!-- mj-class creates a named group of mjml attributes
             which share styles -->
             <mj-class name="head-text" font-size="48px"
-            line-height="69px" text-transform="uppercase"/>
+            line-height="69px" text-transform="uppercase"></mj-class>
         </mj-attributes>
     </mj-head>
 
-    <mj-body background-color="#F1F1F1">
+    <mj-body>
 
         <mj-section background-color="linear-gradient(to top, rgba(51,51,51,1), rgba(221,24,24,1))">
         <!-- mj column horizontally organize contents within sections -->
             <mj-column>
-                <mj-image width="128px" padding="20px" src="./images/uac_logo.png" alt="logo" />
+                <mj-image width="128px" padding="20px" src="http://i.imgur.com/MTiOtUC.gif" alt="logo"></mj-image>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="rgba(51,51,51,1)">
+        <mj-section background-color="#333333">
             <mj-column>
-                <mj-image padding="20px" src="./images/welcome.jpeg" alt="Welcome" />
+                <mj-image padding="20px" src="http://i.imgur.com/MTiOtUC.gif" alt="Welcome"></mj-image>
             <mj-button href="https://google.com">
                 Join the UAC now
             </mj-button>
@@ -40,9 +40,9 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="rgba(51,51,51,1)" padding-top="80px" padding-left="20px" padding-right="20px">
+        <mj-section background-color="#333333" padding-top="80px" padding-left="20px" padding-right="20px">
             <mj-column width="400px" padding-bottom="15px">
-                <mj-image src="./images/hayden.jpeg" alt="hayden" />
+                <mj-image src="http://i.imgur.com/MTiOtUC.gif" alt="hayden"></mj-image>
                 <mj-text mj-class="head-text" padding-top="40px">
                     What does the UAC provide for you?
                 </mj-text>
@@ -55,17 +55,17 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="rgba(51,51,51,1)" padding-top="80px">
+        <mj-section background-color="#333333" padding-top="80px">
             <mj-column width="400px" padding-bottom="15px">
                 <mj-text mj-class="head-text" padding-left="20px" padding-right="20px">
                     Rip and Tear
                 </mj-text>
-                <mj-image src="./images/marauder.jpeg" alt="marauder" />
+                <mj-image src="http://i.imgur.com/MTiOtUC.gif" alt="marauder"></mj-image>
             </mj-column>
         </mj-section>
 
 
-        <mj-section background-color="rgba(51,51,51,1)" padding-top="80px">
+        <mj-section background-color="#333333" padding-top="80px">
             <mj-column>
                 <mj-text font-size="30px" text-transform="uppercase" padding-right="20px" padding-left="20px">
                     Our Outstanding Employees!
@@ -73,36 +73,36 @@
             </mj-column>
         </mj-section>   
 
-        <mj-section background-color="rgba(51,51,51,1)" padding-top="30px" padding-left="50px" padding-right="50px">
+        <mj-section background-color="#333333" padding-top="30px" padding-left="50px" padding-right="50px">
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-image width="40px" src="http://i.imgur.com/MTiOtUC.gif" alt="caco"></mj-image>
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
             </mj-column>
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-image width="40px" src="http://i.imgur.com/MTiOtUC.gif" alt="caco"></mj-image>
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
             </mj-column>
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-image width="40px" src="http://i.imgur.com/MTiOtUC.gif" alt="caco"></mj-image>
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
             </mj-column>
             <mj-column width="200px" padding="20px">
-                <mj-image width="40px" src="./images/caco.png" alt="caco" />
+                <mj-image width="40px" src="http://i.imgur.com/MTiOtUC.gif" alt="caco"></mj-image>
                 <mj-text font-size="12px" line-height="21px" padding-top="15px">Cacodemon</mj-text>
             </mj-column>
         </mj-section>
 
 
-        <mj-section background-color="rgba(51,51,51,1)" padding-top="10px" padding-bottom="80px" >
+        <mj-section background-color="#333333" padding-top="10px" padding-bottom="80px" >
             <mj-column>
                 <mj-text>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
-                    <img width="35px" style="padding: 5px" src="./images/pay1.png" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
+                    <img width="35px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="payment"/>
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -110,7 +110,7 @@
         <mj-section background-color="linear-gradient(to bottom, rgba(51,51,51,1), rgba(221,24,24,1))" padding-bottom="30px" >
             <mj-column width="300px" padding-top="30px">
                 <mj-text>
-                    <img width="25px" style="padding: 5px" src="./images/uac_logo.png" alt="logo"/>
+                    <img width="25px" style="padding: 5px" src="http://i.imgur.com/MTiOtUC.gif" alt="logo"/>
                 </mj-text>
                 <mj-text color="#303030" font-family="Helvetica" font-size="12px" line-height="14px">
                     @JustinHLe
